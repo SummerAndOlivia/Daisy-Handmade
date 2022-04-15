@@ -1,0 +1,141 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: fantasy;
+}
+
+#features, #product, #slogan-footer, .carousel-inner, .card-img{
+  padding: 8% 8%;
+}
+
+/* navigation bar */
+#navigation-bar {
+  background-color: #0abab5;
+  padding: 1% 7%;
+}
+
+.daisy-img {
+  width: 5%;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 60%;
+  text-align: left;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* firstpage */
+.slogan {
+  width: 40%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin: 16% 33%;
+  padding-top: 1.5%;
+  border: solid #0abab5 5px;
+}
+
+@media(max-width:888px){
+  .slogan{
+    position:relative;
+    z-index: 1;
+    width:100%;
+    margin:auto;
+  }
+
+  .slogan-title{
+    font-size: 1rem;
+  }
+}
+
+.slogan-title{
+  font-size: 1.8rem;
+}
+
+.little-daisy-flower-img {
+  width: 5%;
+}
+
+.main-img {
+  width: 100%;
+  position: relative;
+  transform: rotate(-0.04deg);
+}
+
+/* features */
+.icon-img {
+  width: 20%;
+  margin: 15% auto;
+}
+
+/* product */
+#product {
+  background-color: #F8F5F1;
+}
+
+.product-title {
+  margin-bottom: 8%;
+  font-size: 3rem;
+  color: #0abab5;
+}
+
+.card {
+  border-radius: 5%;
+}
+
+.btn{
+  background-color:#0abab5;
+}
+
+/* reviews */
+.review {
+  margin-bottom: 3%;
+  color: #387C6D;
+}
+
+.customer-img {
+  width: 5%;
+  border-radius: 100%;
+  margin-right: 1%;
+}
+
+.customer {
+  color: grey;
+}
+
+/* slogan */
+#slogan-footer {
+  background-color: #0abab5;
+  color: #fff;
+  font-weight: 900;
+}
+
+.fa-solid{
+  margin:2%;
+  color:#387C6D;
+}
+
+.fa-solid:hover{
+  color:#0abab5;
+}
+
+.copyright{
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.daisy-img-footer{
+ width:2%;
+ margin-bottom: 5px;
+}
